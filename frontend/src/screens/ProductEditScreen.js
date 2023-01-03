@@ -148,18 +148,20 @@ function ProductEditScreen({ match, history }) {
                                 >
                                 </Form.Control>
 
-                                <Form.File
+                                {/* <Form.File
                                     id='image-file'
                                     label='Choose File'
                                     custom
                                     onChange={uploadFileHandler}
                                 >
-
-                                </Form.File>
+                                </Form.File> */}
+                                <label>Choose Product Image</label>
+                                <br/>
+                                <input type="file" name="image" onChange={uploadFileHandler} />
                                 {uploading && <Loader />}
 
                             </Form.Group>
-
+                                <br/>
 
                             <Form.Group controlId='brand'>
                                 <Form.Label>Brand</Form.Label>
