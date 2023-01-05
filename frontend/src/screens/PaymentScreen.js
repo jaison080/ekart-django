@@ -44,7 +44,7 @@ function PaymentScreen({ history }) {
                         </Form.Check>
                     </Col>
                 </Form.Group>
-
+                <br/>
                 <Button type='submit' variant='primary'>
                     Continue
                 </Button>

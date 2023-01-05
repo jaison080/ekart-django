@@ -40,7 +40,7 @@ function ShippingScreen({ history }) {
                     >
                     </Form.Control>
                 </Form.Group>
-
+                <br/>
                 <Form.Group controlId='city'>
                     <Form.Label>City</Form.Label>
                     <Form.Control
@@ -52,7 +52,7 @@ function ShippingScreen({ history }) {
                     >
                     </Form.Control>
                 </Form.Group>
-
+                <br/>
                 <Form.Group controlId='postalCode'>
                     <Form.Label>Postal Code</Form.Label>
                     <Form.Control
@@ -64,7 +64,7 @@ function ShippingScreen({ history }) {
                     >
                     </Form.Control>
                 </Form.Group>
-
+                <br/>
                 <Form.Group controlId='country'>
                     <Form.Label>Country</Form.Label>
                     <Form.Control
@@ -76,7 +76,7 @@ function ShippingScreen({ history }) {
                     >
                     </Form.Control>
                 </Form.Group>
-
+                <br/>
                 <Button type='submit' variant='primary'>
                     Continue
                 </Button>

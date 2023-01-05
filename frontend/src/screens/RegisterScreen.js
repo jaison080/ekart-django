@@ -58,7 +58,7 @@ function RegisterScreen({ location, history }) {
                     >
                     </Form.Control>
                 </Form.Group>
-
+                <br/>
                 <Form.Group controlId='email'>
                     <Form.Label>Email Address</Form.Label>
                     <Form.Control
@@ -70,7 +70,7 @@ function RegisterScreen({ location, history }) {
                     >
                     </Form.Control>
                 </Form.Group>
-
+                <br/>
                 <Form.Group controlId='password'>
                     <Form.Label>Password</Form.Label>
                     <Form.Control
@@ -82,7 +82,7 @@ function RegisterScreen({ location, history }) {
                     >
                     </Form.Control>
                 </Form.Group>
-
+                <br/>
                 <Form.Group controlId='passwordConfirm'>
                     <Form.Label>Confirm Password</Form.Label>
                     <Form.Control
@@ -94,7 +94,7 @@ function RegisterScreen({ location, history }) {
                     >
                     </Form.Control>
                 </Form.Group>
-
+                <br/>
                 <Button type='submit' variant='primary'>
                     Register
                 </Button>

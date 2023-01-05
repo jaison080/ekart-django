@@ -188,7 +188,7 @@ function ProductScreen({ match, history }) {
                                                             <option value='5'>5 - Excellent</option>
                                                         </Form.Control>
                                                     </Form.Group>
-
+                                                    <br/>
                                                     <Form.Group controlId='comment'>
                                                         <Form.Label>Review</Form.Label>
                                                         <Form.Control
@@ -198,7 +198,7 @@ function ProductScreen({ match, history }) {
                                                             onChange={(e) => setComment(e.target.value)}
                                                         ></Form.Control>
                                                     </Form.Group>
-
+                                                    <br/>
                                                     <Button
                                                         disabled={loadingProductReview}
                                                         type='submit'

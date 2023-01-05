@@ -16,7 +16,9 @@ function SearchBox() {
         }
     }
     return (
-        <Form onSubmit={submitHandler} inline>
+        <div inline style={{
+            display: 'flex',
+        }}>
             <Form.Control
                 type='text'
                 name='q'
@@ -28,10 +30,11 @@ function SearchBox() {
                 type='submit'
                 variant='outline-success'
                 className='p-2'
+                onClick={submitHandler}
             >
                 Submit
             </Button>
-        </Form>
+        </div>
     )
 }
 

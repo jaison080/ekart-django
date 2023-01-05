@@ -123,7 +123,7 @@ function ProductEditScreen({ match, history }) {
                                 >
                                 </Form.Control>
                             </Form.Group>
-
+                            <br/>
                             <Form.Group controlId='price'>
                                 <Form.Label>Price</Form.Label>
                                 <Form.Control
@@ -136,7 +136,7 @@ function ProductEditScreen({ match, history }) {
                                 </Form.Control>
                             </Form.Group>
 
-
+                            <br/>
                             <Form.Group controlId='image'>
                                 <Form.Label>Image</Form.Label>
                                 <Form.Control
@@ -174,7 +174,7 @@ function ProductEditScreen({ match, history }) {
                                 >
                                 </Form.Control>
                             </Form.Group>
-
+                            <br/>
                             <Form.Group controlId='countinstock'>
                                 <Form.Label>Stock</Form.Label>
                                 <Form.Control
@@ -186,7 +186,7 @@ function ProductEditScreen({ match, history }) {
                                 >
                                 </Form.Control>
                             </Form.Group>
-
+                            <br/>
                             <Form.Group controlId='category'>
                                 <Form.Label>Category</Form.Label>
                                 <Form.Control
@@ -198,7 +198,7 @@ function ProductEditScreen({ match, history }) {
                                 >
                                 </Form.Control>
                             </Form.Group>
-
+                            <br/>
                             <Form.Group controlId='description'>
                                 <Form.Label>Description</Form.Label>
                                 <Form.Control
@@ -210,7 +210,7 @@ function ProductEditScreen({ match, history }) {
                                 >
                                 </Form.Control>
                             </Form.Group>
-
+                            <br/>
 
                             <Button type='submit' variant='primary'>
                                 Update
